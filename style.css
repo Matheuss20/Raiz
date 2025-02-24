@@ -1,56 +1,43 @@
+body {
+    background-color: rgb(69, 76, 210);
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 660px;
     margin: 0 auto;
-    padding: 20px;
 }
 
-.container-texto {
-    background-color: #42988f;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+.amarelo {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(210, 194, 69);
+    box-sizing: border-box;
 }
 
-.container-Matheus {
-    background-color: green;
-    padding: 20px;
-    border-radius: 10px;
-    color: rgb(250, 250, 250);
-    font-family: "Comic Neue", serif;
-    font-weight: 300;
-    font-style: normal;
-    text-align: center;
+.alongar {
+    padding-right: 320px;
 }
 
-.container-imagem {
+.crescer {
+    padding-top: 450px;
+}
+
+.cresce {
+    padding-top: 350px;
+}
+
+.flexivel {
     display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-    background-color: #cc2649;
-    padding: 25px;
-    border-radius: 10px;
 }
 
-.container-imagem2 {
+.amarelod{
     display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-    background-color: #992c4b;
-    padding: 25px;
-    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.container-imagem3 {
-    display: flex;
-    gap: 20px;
-    background-color: #66324c;
-    padding: 25px;
-    border-radius: 10px;
+.crescerr {
+    padding-top: 400px;
 }
 
-.wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
